@@ -20,30 +20,25 @@ public class main
    
    Calculator calculator2 = new Calculator(4,5);
    System.out.println(calculator2.info);
-   System.out.println(calculator2.opA);
-   System.out.println(calculator2.opB);
-   System.out.println(calculator2.pengurangan(3,2));
-    System.out.println(calculator2.penjumlahan(3,2));
-    System.out.println(calculator2.Perkalian(3,2));
-    System.out.println(calculator2.pembagian(3,2));
+   System.out.println("opA = "+calculator2.opA);
+   System.out.println("opB = "+calculator2.opB);
+   System.out.println("pengurangan = "+ calculator2.pengurangan(4,5));
+    System.out.println("penjumlahan = "+calculator2.penjumlahan(4,5));
+    System.out.println("Perkalian = "+calculator2.Perkalian(4,5));
+    System.out.println("pembagian = "+calculator2.pembagian(4,5));
     System.out.println("\n");
     
     
     //CalculatorAdvanced
+    System.out.println("Menampilkan ");
     calculatorAdvanced calculator3 = new calculatorAdvanced();
-    System.out.println(calculator3.info);
-    System.out.println(calculator3.opA);
-    System.out.println(calculator3.opB);
-    System.out.println(calculator3.pengurangan(3,2));
-    System.out.println(calculator3.penjumlahan(3,2));
-    System.out.println(calculator3.Perkalian(3,2));
-    System.out.println(calculator3.pembagian(3,2));
     hasil= calculator3.Faktorial(5);
     System.out.println("Faktorial dari 5 adalah : "+hasil);
     System.out.println("Faktorial dari 4 adalah : "+calculator3.Faktorial(4));
     System.out.println("\n");
     
     //CalculatorProgrammer
+    System.out.println("Menampilkan hasil konversi desimal ke biner dan hexa");
     calculatorProgrammer calculator4 = new calculatorProgrammer();
     hasil= calculator4.Konversi(13);
     hasil= calculator4.Konversi(1115);//Menampilkan hasil konversi desimal ke biner dan hexa
